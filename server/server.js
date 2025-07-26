@@ -16,6 +16,7 @@ app.use(cors());
 app.get('/', (req, res) => {
     res.send("Backend is working");
 })
+app.post('/clerk', express.json(), )
 
 // Port
 const PORT = process.env.PORT || 5000;
